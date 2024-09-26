@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-to
+
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
@@ -30,7 +30,7 @@ ADMINS = int(environ.get("ADMINS", "6692613520"))
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://ajay393798:ijwrgGv5P4sIP54h@cluster0.eqraqbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
 DB_URI = environ.get("DB_URI", "
-mongodb+srv://ajay393798:btFPigbsUQK3MYt9@cluster0.ylenz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongodb+srv://ajay393798:btFPigbsUQK3MYt9@cluster0.ylenz.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 
