@@ -22,14 +22,14 @@ def is_enabled(value, default):
 
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29640476"))
-API_HASH = environ.get("API_HASH", "824d5b93ac8c8fddcf4088a67ecd5222")
-ADMINS = int(environ.get("ADMINS", "6138367360"))
+API_ID = int(environ.get("API_ID", "18946488"))
+API_HASH = environ.get("API_HASH", "c163d4e28e63196c3806cf3b9b2885de")
+ADMINS = int(environ.get("ADMINS", "6692613520"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://infotechhero890:7c2qvHdJUYqTOaMa@cluster0.veojhex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://ajay393798:ijwrgGv5P4sIP54h@cluster0.eqraqbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "mongodb+srv://thahero196:lP9Fb6aKL7T0y47U@cluster0.whs2bkj.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = environ.get("DB_URI", "mongodb+srv://ajay393798:btFPigbsUQK3MYt9@cluster0.ylenz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 
